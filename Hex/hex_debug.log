@@ -3575,3 +3575,371 @@
 [2025-12-03 02:55:11] file=V10-2.py EVENT=iter game_id=1 move=56 depth=2 val=12.80 nodes=27 tt_hits=0
 [2025-12-03 02:55:11] file=V10-2.py EVENT=iter game_id=1 move=56 depth=3 val=40.35 nodes=165 tt_hits=0
 [2025-12-03 02:55:12] file=V10-2.py EVENT=iter game_id=1 move=56 depth=4 val=-8.00 nodes=816 tt_hits=24
+[2025-12-03 02:55:16] file=V10-2.py EVENT=search_choice game_id=1 move=56 piece=R pos=(2, 2) depth=4 val=-8.00 nodes=2893 tt_hits=47 max_ply=5 elapsed=6.001
+[2025-12-03 02:55:17] file=V10-1.py EVENT=iter game_id=1 move=57 depth=1 val=29.90 nodes=139 tt_hits=0
+[2025-12-03 02:55:22] file=V10-1.py EVENT=search_choice game_id=1 move=57 piece=B pos=(1, 3) depth=1 val=29.90 nodes=2419 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:55:22] file=V10-2.py EVENT=time_budget game_id=1 move=58 global_remaining=743.8 moves_left_est=69 budget=6.00 empties=138 d_self=6.0 d_opp=5.0
+[2025-12-03 02:55:22] file=V10-2.py EVENT=iter game_id=1 move=58 depth=1 val=37.80 nodes=6 tt_hits=0
+[2025-12-03 02:55:22] file=V10-2.py EVENT=iter game_id=1 move=58 depth=2 val=26.15 nodes=32 tt_hits=0
+[2025-12-03 02:55:22] file=V10-2.py EVENT=iter game_id=1 move=58 depth=3 val=58.85 nodes=169 tt_hits=0
+[2025-12-03 02:55:23] file=V10-2.py EVENT=iter game_id=1 move=58 depth=4 val=46.15 nodes=586 tt_hits=17
+[2025-12-03 02:55:28] file=V10-2.py EVENT=search_choice game_id=1 move=58 piece=R pos=(2, 3) depth=4 val=46.15 nodes=3050 tt_hits=111 max_ply=5 elapsed=6.000
+[2025-12-03 02:55:28] file=V10-1.py EVENT=iter game_id=1 move=59 depth=1 val=20.60 nodes=137 tt_hits=0
+[2025-12-03 02:55:33] file=V10-1.py EVENT=search_choice game_id=1 move=59 piece=B pos=(1, 13) depth=1 val=20.60 nodes=2571 tt_hits=0 max_ply=2 elapsed=5.402
+[2025-12-03 02:55:34] file=V10-2.py EVENT=time_budget game_id=1 move=60 global_remaining=737.8 moves_left_est=68 budget=6.00 empties=136 d_self=5.0 d_opp=5.0
+[2025-12-03 02:55:34] file=V10-2.py EVENT=iter game_id=1 move=60 depth=1 val=67.90 nodes=6 tt_hits=0
+[2025-12-03 02:55:34] file=V10-2.py EVENT=iter game_id=1 move=60 depth=2 val=54.80 nodes=38 tt_hits=0
+[2025-12-03 02:55:34] file=V10-2.py EVENT=iter game_id=1 move=60 depth=3 val=61.55 nodes=236 tt_hits=0
+[2025-12-03 02:55:36] file=V10-2.py EVENT=iter game_id=1 move=60 depth=4 val=49.05 nodes=1104 tt_hits=39
+[2025-12-03 02:55:40] file=V10-2.py EVENT=search_choice game_id=1 move=60 piece=R pos=(0, 5) depth=4 val=49.05 nodes=3253 tt_hits=104 max_ply=5 elapsed=6.002
+[2025-12-03 02:55:40] file=V10-1.py EVENT=iter game_id=1 move=61 depth=1 val=-18.05 nodes=135 tt_hits=0
+[2025-12-03 02:55:45] file=V10-1.py EVENT=search_choice game_id=1 move=61 piece=B pos=(10, 5) depth=1 val=-18.05 nodes=2428 tt_hits=0 max_ply=2 elapsed=5.402
+[2025-12-03 02:55:45] file=V10-2.py EVENT=time_budget game_id=1 move=62 global_remaining=731.5 moves_left_est=67 budget=6.00 empties=134 d_self=4.0 d_opp=9.0
+[2025-12-03 02:55:45] file=V10-2.py EVENT=iter game_id=1 move=62 depth=1 val=54.80 nodes=6 tt_hits=0
+[2025-12-03 02:55:45] file=V10-2.py EVENT=iter game_id=1 move=62 depth=2 val=47.95 nodes=41 tt_hits=0
+[2025-12-03 02:55:45] file=V10-2.py EVENT=iter game_id=1 move=62 depth=3 val=63.50 nodes=203 tt_hits=6
+[2025-12-03 02:55:47] file=V10-2.py EVENT=iter game_id=1 move=62 depth=4 val=52.50 nodes=874 tt_hits=36
+[2025-12-03 02:55:51] file=V10-2.py EVENT=search_choice game_id=1 move=62 piece=R pos=(10, 4) depth=4 val=52.50 nodes=3746 tt_hits=160 max_ply=5 elapsed=6.001
+[2025-12-03 02:55:51] file=V10-1.py EVENT=iter game_id=1 move=63 depth=1 val=-26.75 nodes=133 tt_hits=0
+[2025-12-03 02:55:57] file=V10-1.py EVENT=search_choice game_id=1 move=63 piece=B pos=(11, 4) depth=1 val=-26.75 nodes=2450 tt_hits=0 max_ply=2 elapsed=5.422
+[2025-12-03 02:55:57] file=V10-2.py EVENT=time_budget game_id=1 move=64 global_remaining=725.5 moves_left_est=66 budget=6.00 empties=132 d_self=4.0 d_opp=10.0
+[2025-12-03 02:55:57] file=V10-2.py EVENT=iter game_id=1 move=64 depth=1 val=63.50 nodes=6 tt_hits=0
+[2025-12-03 02:55:57] file=V10-2.py EVENT=iter game_id=1 move=64 depth=2 val=62.60 nodes=14 tt_hits=8
+[2025-12-03 02:55:57] file=V10-2.py EVENT=iter game_id=1 move=64 depth=3 val=62.60 nodes=26 tt_hits=20
+[2025-12-03 02:55:58] file=V10-2.py EVENT=iter game_id=1 move=64 depth=4 val=50.00 nodes=1003 tt_hits=41
+[2025-12-03 02:56:03] file=V10-2.py EVENT=search_choice game_id=1 move=64 piece=R pos=(10, 3) depth=4 val=50.00 nodes=3346 tt_hits=141 max_ply=5 elapsed=6.002
+[2025-12-03 02:56:03] file=V10-1.py EVENT=iter game_id=1 move=65 depth=1 val=-26.75 nodes=131 tt_hits=0
+[2025-12-03 02:56:08] file=V10-1.py EVENT=search_choice game_id=1 move=65 piece=B pos=(11, 2) depth=1 val=-26.75 nodes=2520 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:56:08] file=V10-2.py EVENT=time_budget game_id=1 move=66 global_remaining=719.4 moves_left_est=65 budget=6.00 empties=130 d_self=4.0 d_opp=10.0
+[2025-12-03 02:56:08] file=V10-2.py EVENT=iter game_id=1 move=66 depth=1 val=64.90 nodes=6 tt_hits=0
+[2025-12-03 02:56:08] file=V10-2.py EVENT=iter game_id=1 move=66 depth=2 val=52.50 nodes=14 tt_hits=8
+[2025-12-03 02:56:08] file=V10-2.py EVENT=iter game_id=1 move=66 depth=3 val=60.75 nodes=154 tt_hits=8
+[2025-12-03 02:56:11] file=V10-2.py EVENT=iter game_id=1 move=66 depth=4 val=40.60 nodes=1380 tt_hits=43
+[2025-12-03 02:56:14] file=V10-2.py EVENT=search_choice game_id=1 move=66 piece=R pos=(4, 3) depth=4 val=40.60 nodes=3109 tt_hits=130 max_ply=5 elapsed=6.000
+[2025-12-03 02:56:14] file=V10-1.py EVENT=iter game_id=1 move=67 depth=1 val=-12.80 nodes=129 tt_hits=0
+[2025-12-03 02:56:19] file=V10-1.py EVENT=search_choice game_id=1 move=67 piece=B pos=(10, 1) depth=1 val=-12.80 nodes=2396 tt_hits=0 max_ply=2 elapsed=5.402
+[2025-12-03 02:56:19] file=V10-2.py EVENT=time_budget game_id=1 move=68 global_remaining=713.4 moves_left_est=64 budget=6.00 empties=128 d_self=4.0 d_opp=8.0
+[2025-12-03 02:56:19] file=V10-2.py EVENT=iter game_id=1 move=68 depth=1 val=71.05 nodes=6 tt_hits=0
+[2025-12-03 02:56:20] file=V10-2.py EVENT=iter game_id=1 move=68 depth=2 val=48.65 nodes=49 tt_hits=0
+[2025-12-03 02:56:20] file=V10-2.py EVENT=iter game_id=1 move=68 depth=3 val=102.35 nodes=259 tt_hits=0
+[2025-12-03 02:56:23] file=V10-2.py EVENT=iter game_id=1 move=68 depth=4 val=87.40 nodes=1627 tt_hits=70
+[2025-12-03 02:56:25] file=V10-2.py EVENT=search_choice game_id=1 move=68 piece=R pos=(8, 8) depth=4 val=87.40 nodes=2605 tt_hits=91 max_ply=5 elapsed=6.000
+[2025-12-03 02:56:26] file=V10-1.py EVENT=iter game_id=1 move=69 depth=1 val=-4.25 nodes=127 tt_hits=0
+[2025-12-03 02:56:31] file=V10-1.py EVENT=search_choice game_id=1 move=69 piece=B pos=(4, 10) depth=1 val=-4.25 nodes=2328 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:56:31] file=V10-2.py EVENT=time_budget game_id=1 move=70 global_remaining=707.4 moves_left_est=63 budget=6.00 empties=126 d_self=4.0 d_opp=7.0
+[2025-12-03 02:56:31] file=V10-2.py EVENT=iter game_id=1 move=70 depth=1 val=116.95 nodes=6 tt_hits=0
+[2025-12-03 02:56:31] file=V10-2.py EVENT=iter game_id=1 move=70 depth=2 val=95.15 nodes=50 tt_hits=0
+[2025-12-03 02:56:32] file=V10-2.py EVENT=iter game_id=1 move=70 depth=3 val=105.20 nodes=311 tt_hits=0
+[2025-12-03 02:56:34] file=V10-2.py EVENT=iter game_id=1 move=70 depth=4 val=91.75 nodes=1129 tt_hits=41
+[2025-12-03 02:56:37] file=V10-2.py EVENT=search_choice game_id=1 move=70 piece=R pos=(7, 8) depth=4 val=91.75 nodes=2560 tt_hits=86 max_ply=5 elapsed=6.003
+[2025-12-03 02:56:37] file=V10-1.py EVENT=iter game_id=1 move=71 depth=1 val=-4.90 nodes=125 tt_hits=0
+[2025-12-03 02:56:42] file=V10-1.py EVENT=search_choice game_id=1 move=71 piece=B pos=(6, 9) depth=1 val=-4.90 nodes=2275 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:56:42] file=V10-2.py EVENT=time_budget game_id=1 move=72 global_remaining=701.4 moves_left_est=62 budget=6.00 empties=124 d_self=4.0 d_opp=7.0
+[2025-12-03 02:56:42] file=V10-2.py EVENT=iter game_id=1 move=72 depth=1 val=73.15 nodes=6 tt_hits=0
+[2025-12-03 02:56:42] file=V10-2.py EVENT=iter game_id=1 move=72 depth=2 val=51.05 nodes=46 tt_hits=0
+[2025-12-03 02:56:43] file=V10-2.py EVENT=iter game_id=1 move=72 depth=3 val=73.20 nodes=319 tt_hits=0
+[2025-12-03 02:56:46] file=V10-2.py EVENT=iter game_id=1 move=72 depth=4 val=89.20 nodes=1358 tt_hits=43
+[2025-12-03 02:56:48] file=V10-2.py EVENT=search_choice game_id=1 move=72 piece=R pos=(9, 8) depth=4 val=89.20 nodes=2378 tt_hits=62 max_ply=5 elapsed=6.001
+[2025-12-03 02:56:49] file=V10-1.py EVENT=iter game_id=1 move=73 depth=1 val=-4.40 nodes=123 tt_hits=0
+[2025-12-03 02:56:54] file=V10-1.py EVENT=search_choice game_id=1 move=73 piece=B pos=(7, 9) depth=1 val=-4.40 nodes=2250 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:56:54] file=V10-2.py EVENT=time_budget game_id=1 move=74 global_remaining=695.4 moves_left_est=61 budget=6.00 empties=122 d_self=4.0 d_opp=7.0
+[2025-12-03 02:56:54] file=V10-2.py EVENT=iter game_id=1 move=74 depth=1 val=72.65 nodes=6 tt_hits=0
+[2025-12-03 02:56:54] file=V10-2.py EVENT=iter game_id=1 move=74 depth=2 val=50.55 nodes=46 tt_hits=0
+[2025-12-03 02:56:55] file=V10-2.py EVENT=iter game_id=1 move=74 depth=3 val=72.70 nodes=343 tt_hits=0
+[2025-12-03 02:56:57] file=V10-2.py EVENT=iter game_id=1 move=74 depth=4 val=66.15 nodes=1371 tt_hits=50
+[2025-12-03 02:57:00] file=V10-2.py EVENT=search_choice game_id=1 move=74 piece=R pos=(8, 9) depth=4 val=66.15 nodes=2386 tt_hits=63 max_ply=5 elapsed=6.002
+[2025-12-03 02:57:00] file=V10-1.py EVENT=iter game_id=1 move=75 depth=1 val=-3.95 nodes=121 tt_hits=0
+[2025-12-03 02:57:05] file=V10-1.py EVENT=search_choice game_id=1 move=75 piece=B pos=(5, 11) depth=1 val=-3.95 nodes=2221 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:57:05] file=V10-2.py EVENT=time_budget game_id=1 move=76 global_remaining=689.4 moves_left_est=60 budget=6.00 empties=120 d_self=4.0 d_opp=7.0
+[2025-12-03 02:57:05] file=V10-2.py EVENT=iter game_id=1 move=76 depth=1 val=82.20 nodes=6 tt_hits=0
+[2025-12-03 02:57:05] file=V10-2.py EVENT=iter game_id=1 move=76 depth=2 val=60.10 nodes=47 tt_hits=0
+[2025-12-03 02:57:06] file=V10-2.py EVENT=iter game_id=1 move=76 depth=3 val=84.10 nodes=329 tt_hits=0
+[2025-12-03 02:57:09] file=V10-2.py EVENT=iter game_id=1 move=76 depth=4 val=61.70 nodes=1738 tt_hits=44
+[2025-12-03 02:57:11] file=V10-2.py EVENT=search_choice game_id=1 move=76 piece=R pos=(9, 7) depth=4 val=61.70 nodes=2320 tt_hits=53 max_ply=5 elapsed=6.002
+[2025-12-03 02:57:11] file=V10-1.py EVENT=iter game_id=1 move=77 depth=1 val=0.60 nodes=119 tt_hits=0
+[2025-12-03 02:57:17] file=V10-1.py EVENT=search_choice game_id=1 move=77 piece=B pos=(3, 12) depth=1 val=0.60 nodes=2175 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:57:17] file=V10-2.py EVENT=time_budget game_id=1 move=78 global_remaining=683.3 moves_left_est=59 budget=6.00 empties=118 d_self=4.0 d_opp=6.0
+[2025-12-03 02:57:17] file=V10-2.py EVENT=iter game_id=1 move=78 depth=1 val=100.25 nodes=6 tt_hits=0
+[2025-12-03 02:57:17] file=V10-2.py EVENT=iter game_id=1 move=78 depth=2 val=97.70 nodes=47 tt_hits=0
+[2025-12-03 02:57:17] file=V10-2.py EVENT=iter game_id=1 move=78 depth=3 val=116.45 nodes=307 tt_hits=0
+[2025-12-03 02:57:20] file=V10-2.py EVENT=iter game_id=1 move=78 depth=4 val=87.95 nodes=1390 tt_hits=48
+[2025-12-03 02:57:23] file=V10-2.py EVENT=search_choice game_id=1 move=78 piece=R pos=(7, 10) depth=4 val=87.95 nodes=2376 tt_hits=82 max_ply=5 elapsed=6.000
+[2025-12-03 02:57:23] file=V10-1.py EVENT=iter game_id=1 move=79 depth=1 val=2.65 nodes=117 tt_hits=0
+[2025-12-03 02:57:28] file=V10-1.py EVENT=search_choice game_id=1 move=79 piece=B pos=(10, 6) depth=1 val=2.65 nodes=2178 tt_hits=0 max_ply=2 elapsed=5.402
+[2025-12-03 02:57:28] file=V10-2.py EVENT=time_budget game_id=1 move=80 global_remaining=677.3 moves_left_est=58 budget=6.00 empties=116 d_self=4.0 d_opp=6.0
+[2025-12-03 02:57:28] file=V10-2.py EVENT=iter game_id=1 move=80 depth=1 val=117.50 nodes=6 tt_hits=0
+[2025-12-03 02:57:28] file=V10-2.py EVENT=iter game_id=1 move=80 depth=2 val=109.55 nodes=14 tt_hits=8
+[2025-12-03 02:57:29] file=V10-2.py EVENT=iter game_id=1 move=80 depth=3 val=111.30 nodes=305 tt_hits=9
+[2025-12-03 02:57:32] file=V10-2.py EVENT=iter game_id=1 move=80 depth=4 val=88.15 nodes=1737 tt_hits=65
+[2025-12-03 02:57:34] file=V10-2.py EVENT=search_choice game_id=1 move=80 piece=R pos=(5, 3) depth=4 val=88.15 nodes=2436 tt_hits=82 max_ply=5 elapsed=6.002
+[2025-12-03 02:57:34] file=V10-1.py EVENT=iter game_id=1 move=81 depth=1 val=7.10 nodes=115 tt_hits=0
+[2025-12-03 02:57:39] file=V10-1.py EVENT=search_choice game_id=1 move=81 piece=B pos=(10, 7) depth=1 val=7.10 nodes=2123 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:57:40] file=V10-2.py EVENT=time_budget game_id=1 move=82 global_remaining=671.3 moves_left_est=57 budget=6.00 empties=114 d_self=4.0 d_opp=5.0
+[2025-12-03 02:57:40] file=V10-2.py EVENT=iter game_id=1 move=82 depth=1 val=111.30 nodes=6 tt_hits=0
+[2025-12-03 02:57:40] file=V10-2.py EVENT=iter game_id=1 move=82 depth=2 val=88.90 nodes=14 tt_hits=8
+[2025-12-03 02:57:40] file=V10-2.py EVENT=iter game_id=1 move=82 depth=3 val=97.90 nodes=318 tt_hits=11
+[2025-12-03 02:57:42] file=V10-2.py EVENT=iter game_id=1 move=82 depth=4 val=89.85 nodes=864 tt_hits=27
+[2025-12-03 02:57:46] file=V10-2.py EVENT=search_choice game_id=1 move=82 piece=R pos=(10, 8) depth=4 val=89.85 nodes=2528 tt_hits=73 max_ply=5 elapsed=6.406
+[2025-12-03 02:57:46] file=V10-1.py EVENT=iter game_id=1 move=83 depth=1 val=-1018.90 nodes=113 tt_hits=0
+[2025-12-03 02:57:51] file=V10-1.py EVENT=search_choice game_id=1 move=83 piece=B pos=(11, 7) depth=1 val=-1018.90 nodes=2136 tt_hits=0 max_ply=2 elapsed=5.400
+[2025-12-03 02:57:51] file=V10-2.py EVENT=time_budget game_id=1 move=84 global_remaining=664.9 moves_left_est=56 budget=6.00 empties=112 d_self=3.0 d_opp=6.0
+[2025-12-03 02:57:52] file=V10-2.py EVENT=iter game_id=1 move=84 depth=1 val=1018.30 nodes=112 tt_hits=0
+[2025-12-03 02:57:52] file=V10-2.py EVENT=iter game_id=1 move=84 depth=2 val=806.40 nodes=451 tt_hits=12
+[2025-12-03 02:57:57] file=V10-2.py EVENT=search_choice game_id=1 move=84 piece=R pos=(11, 8) depth=2 val=806.40 nodes=2377 tt_hits=24 max_ply=3 elapsed=6.002
+[2025-12-03 02:57:58] file=V10-1.py EVENT=iter game_id=1 move=85 depth=1 val=-1216.90 nodes=111 tt_hits=0
+[2025-12-03 02:58:03] file=V10-1.py EVENT=search_choice game_id=1 move=85 piece=B pos=(12, 7) depth=1 val=-1216.90 nodes=1995 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 02:58:03] file=V10-2.py EVENT=time_budget game_id=1 move=86 global_remaining=658.9 moves_left_est=55 budget=6.00 empties=110 d_self=2.0 d_opp=6.0
+[2025-12-03 02:58:03] file=V10-2.py EVENT=iter game_id=1 move=86 depth=1 val=1176.30 nodes=110 tt_hits=0
+[2025-12-03 02:58:07] file=V10-2.py EVENT=iter game_id=1 move=86 depth=2 val=985.50 nodes=1506 tt_hits=0
+[2025-12-03 02:58:09] file=V10-2.py EVENT=search_choice game_id=1 move=86 piece=R pos=(12, 8) depth=2 val=985.50 nodes=2543 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 02:58:09] file=V10-1.py EVENT=iter game_id=1 move=87 depth=1 val=-1415.20 nodes=109 tt_hits=0
+[2025-12-03 02:58:14] file=V10-1.py EVENT=search_choice game_id=1 move=87 piece=B pos=(9, 12) depth=1 val=-1415.20 nodes=2123 tt_hits=0 max_ply=2 elapsed=5.402
+[2025-12-03 02:58:14] file=V10-2.py EVENT=immediate_win game_id=1 move=88 piece=R pos=(13, 7)
+[2025-12-03 02:59:27] file=V10-1.py EVENT=new_player game_id=1 piece=R
+[2025-12-03 02:59:27] file=V10-2.py EVENT=new_player game_id=1 piece=B
+[2025-12-03 02:59:28] file=V10-1.py EVENT=opening_hint game_id=1 move=0 piece=R pos=(6, 7)
+[2025-12-03 02:59:28] file=V10-2.py EVENT=opening_hint game_id=1 move=1 piece=B pos=(7, 6)
+[2025-12-03 02:59:28] file=V10-1.py EVENT=opening_hint game_id=1 move=2 piece=R pos=(7, 7)
+[2025-12-03 02:59:28] file=V10-2.py EVENT=opening_hint game_id=1 move=3 piece=B pos=(6, 6)
+[2025-12-03 02:59:28] file=V10-1.py EVENT=opening_hint game_id=1 move=4 piece=R pos=(8, 7)
+[2025-12-03 02:59:28] file=V10-2.py EVENT=time_budget game_id=1 move=5 global_remaining=900.0 moves_left_est=95 budget=6.00 empties=191 d_self=13.0 d_opp=11.0
+[2025-12-03 02:59:28] file=V10-2.py EVENT=iter game_id=1 move=5 depth=1 val=-8.30 nodes=6 tt_hits=0
+[2025-12-03 02:59:28] file=V10-2.py EVENT=iter game_id=1 move=5 depth=2 val=-169.70 nodes=51 tt_hits=0
+[2025-12-03 02:59:28] file=V10-2.py EVENT=iter game_id=1 move=5 depth=3 val=15.70 nodes=290 tt_hits=0
+[2025-12-03 02:59:30] file=V10-2.py EVENT=iter game_id=1 move=5 depth=4 val=-19.70 nodes=2259 tt_hits=56
+[2025-12-03 02:59:34] file=V10-2.py EVENT=search_choice game_id=1 move=5 piece=B pos=(4, 6) depth=4 val=-19.70 nodes=5907 tt_hits=171 max_ply=5 elapsed=6.000
+[2025-12-03 02:59:34] file=V10-1.py EVENT=iter game_id=1 move=6 depth=1 val=28.30 nodes=190 tt_hits=0
+[2025-12-03 02:59:38] file=V10-1.py EVENT=iter game_id=1 move=6 depth=2 val=-283.40 nodes=3919 tt_hits=0
+[2025-12-03 02:59:39] file=V10-1.py EVENT=search_choice game_id=1 move=6 piece=R pos=(3, 8) depth=2 val=-283.40 nodes=5304 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 02:59:39] file=V10-2.py EVENT=time_budget game_id=1 move=7 global_remaining=894.0 moves_left_est=94 budget=6.00 empties=189 d_self=13.0 d_opp=10.0
+[2025-12-03 02:59:39] file=V10-2.py EVENT=iter game_id=1 move=7 depth=1 val=-114.00 nodes=6 tt_hits=0
+[2025-12-03 02:59:39] file=V10-2.py EVENT=iter game_id=1 move=7 depth=2 val=-125.40 nodes=32 tt_hits=0
+[2025-12-03 02:59:40] file=V10-2.py EVENT=iter game_id=1 move=7 depth=3 val=-31.20 nodes=346 tt_hits=0
+[2025-12-03 02:59:42] file=V10-2.py EVENT=iter game_id=1 move=7 depth=4 val=-120.70 nodes=2403 tt_hits=78
+[2025-12-03 02:59:45] file=V10-2.py EVENT=search_choice game_id=1 move=7 piece=B pos=(9, 6) depth=4 val=-120.70 nodes=5616 tt_hits=219 max_ply=5 elapsed=6.000
+[2025-12-03 02:59:45] file=V10-1.py EVENT=iter game_id=1 move=8 depth=1 val=36.80 nodes=188 tt_hits=0
+[2025-12-03 02:59:47] file=V10-1.py EVENT=iter game_id=1 move=8 depth=2 val=25.85 nodes=1439 tt_hits=0
+[2025-12-03 02:59:51] file=V10-1.py EVENT=search_choice game_id=1 move=8 piece=R pos=(4, 8) depth=2 val=25.85 nodes=5218 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 02:59:51] file=V10-2.py EVENT=time_budget game_id=1 move=9 global_remaining=888.0 moves_left_est=93 budget=6.00 empties=187 d_self=13.0 d_opp=9.0
+[2025-12-03 02:59:51] file=V10-2.py EVENT=iter game_id=1 move=9 depth=1 val=-15.85 nodes=6 tt_hits=0
+[2025-12-03 02:59:51] file=V10-2.py EVENT=iter game_id=1 move=9 depth=2 val=-35.75 nodes=32 tt_hits=1
+[2025-12-03 02:59:51] file=V10-2.py EVENT=iter game_id=1 move=9 depth=3 val=7.50 nodes=317 tt_hits=2
+[2025-12-03 02:59:53] file=V10-2.py EVENT=iter game_id=1 move=9 depth=4 val=-43.90 nodes=2596 tt_hits=112
+[2025-12-03 02:59:57] file=V10-2.py EVENT=search_choice game_id=1 move=9 piece=B pos=(3, 7) depth=4 val=-43.90 nodes=5700 tt_hits=255 max_ply=5 elapsed=6.001
+[2025-12-03 02:59:57] file=V10-1.py EVENT=iter game_id=1 move=10 depth=1 val=54.25 nodes=186 tt_hits=0
+[2025-12-03 02:59:58] file=V10-1.py EVENT=iter game_id=1 move=10 depth=2 val=34.10 nodes=1910 tt_hits=0
+[2025-12-03 03:00:02] file=V10-1.py EVENT=search_choice game_id=1 move=10 piece=R pos=(1, 9) depth=2 val=34.10 nodes=6276 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:00:02] file=V10-2.py EVENT=time_budget game_id=1 move=11 global_remaining=882.0 moves_left_est=92 budget=6.00 empties=185 d_self=12.0 d_opp=6.0
+[2025-12-03 03:00:02] file=V10-2.py EVENT=iter game_id=1 move=11 depth=1 val=-2.35 nodes=6 tt_hits=0
+[2025-12-03 03:00:02] file=V10-2.py EVENT=iter game_id=1 move=11 depth=2 val=-18.80 nodes=40 tt_hits=0
+[2025-12-03 03:00:02] file=V10-2.py EVENT=iter game_id=1 move=11 depth=3 val=9.90 nodes=217 tt_hits=0
+[2025-12-03 03:00:04] file=V10-2.py EVENT=iter game_id=1 move=11 depth=4 val=-21.00 nodes=1594 tt_hits=21
+[2025-12-03 03:00:08] file=V10-2.py EVENT=search_choice game_id=1 move=11 piece=B pos=(0, 9) depth=4 val=-21.00 nodes=4966 tt_hits=182 max_ply=5 elapsed=6.001
+[2025-12-03 03:00:08] file=V10-1.py EVENT=iter game_id=1 move=12 depth=1 val=64.50 nodes=184 tt_hits=0
+[2025-12-03 03:00:10] file=V10-1.py EVENT=iter game_id=1 move=12 depth=2 val=43.55 nodes=1840 tt_hits=0
+[2025-12-03 03:00:13] file=V10-1.py EVENT=search_choice game_id=1 move=12 piece=R pos=(9, 8) depth=2 val=43.55 nodes=6225 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:00:13] file=V10-2.py EVENT=time_budget game_id=1 move=13 global_remaining=876.0 moves_left_est=91 budget=6.00 empties=183 d_self=12.0 d_opp=5.0
+[2025-12-03 03:00:13] file=V10-2.py EVENT=iter game_id=1 move=13 depth=1 val=-30.35 nodes=6 tt_hits=0
+[2025-12-03 03:00:14] file=V10-2.py EVENT=iter game_id=1 move=13 depth=2 val=-37.60 nodes=32 tt_hits=0
+[2025-12-03 03:00:14] file=V10-2.py EVENT=iter game_id=1 move=13 depth=3 val=-8.70 nodes=208 tt_hits=0
+[2025-12-03 03:00:15] file=V10-2.py EVENT=iter game_id=1 move=13 depth=4 val=-17.15 nodes=954 tt_hits=7
+[2025-12-03 03:00:19] file=V10-2.py EVENT=search_choice game_id=1 move=13 piece=B pos=(11, 6) depth=4 val=-17.15 nodes=5160 tt_hits=204 max_ply=5 elapsed=6.001
+[2025-12-03 03:00:20] file=V10-1.py EVENT=iter game_id=1 move=14 depth=1 val=81.55 nodes=182 tt_hits=0
+[2025-12-03 03:00:21] file=V10-1.py EVENT=iter game_id=1 move=14 depth=2 val=60.60 nodes=2021 tt_hits=0
+[2025-12-03 03:00:25] file=V10-1.py EVENT=search_choice game_id=1 move=14 piece=R pos=(11, 7) depth=2 val=60.60 nodes=6164 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:00:25] file=V10-2.py EVENT=time_budget game_id=1 move=15 global_remaining=870.0 moves_left_est=90 budget=6.00 empties=181 d_self=12.0 d_opp=3.0
+[2025-12-03 03:00:25] file=V10-2.py EVENT=iter game_id=1 move=15 depth=1 val=-52.85 nodes=181 tt_hits=0
+[2025-12-03 03:00:30] file=V10-2.py EVENT=iter game_id=1 move=15 depth=2 val=-1251.80 nodes=5096 tt_hits=0
+[2025-12-03 03:00:31] file=V10-2.py EVENT=search_choice game_id=1 move=15 piece=B pos=(0, 10) depth=2 val=-1251.80 nodes=5687 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:00:31] file=V10-1.py EVENT=iter game_id=1 move=16 depth=1 val=981.80 nodes=180 tt_hits=0
+[2025-12-03 03:00:32] file=V10-1.py EVENT=iter game_id=1 move=16 depth=2 val=62.30 nodes=1523 tt_hits=0
+[2025-12-03 03:00:36] file=V10-1.py EVENT=search_choice game_id=1 move=16 piece=R pos=(1, 8) depth=2 val=62.30 nodes=6307 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:00:36] file=V10-2.py EVENT=time_budget game_id=1 move=17 global_remaining=864.0 moves_left_est=89 budget=6.00 empties=179 d_self=12.0 d_opp=3.0
+[2025-12-03 03:00:37] file=V10-2.py EVENT=iter game_id=1 move=17 depth=1 val=-54.55 nodes=179 tt_hits=0
+[2025-12-03 03:00:42] file=V10-2.py EVENT=iter game_id=1 move=17 depth=2 val=-1253.50 nodes=5188 tt_hits=0
+[2025-12-03 03:00:42] file=V10-2.py EVENT=search_choice game_id=1 move=17 piece=B pos=(0, 8) depth=2 val=-1253.50 nodes=5483 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:00:42] file=V10-1.py EVENT=iter game_id=1 move=18 depth=1 val=983.50 nodes=178 tt_hits=0
+[2025-12-03 03:00:45] file=V10-1.py EVENT=iter game_id=1 move=18 depth=2 val=69.80 nodes=2602 tt_hits=0
+[2025-12-03 03:00:48] file=V10-1.py EVENT=search_choice game_id=1 move=18 piece=R pos=(13, 6) depth=2 val=69.80 nodes=6009 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:00:48] file=V10-2.py EVENT=time_budget game_id=1 move=19 global_remaining=858.0 moves_left_est=88 budget=6.00 empties=177 d_self=11.0 d_opp=2.0
+[2025-12-03 03:00:48] file=V10-2.py EVENT=iter game_id=1 move=19 depth=1 val=-1059.80 nodes=177 tt_hits=0
+[2025-12-03 03:00:54] file=V10-2.py EVENT=search_choice game_id=1 move=19 piece=B pos=(9, 7) depth=1 val=-1059.80 nodes=6012 tt_hits=0 max_ply=2 elapsed=6.000
+[2025-12-03 03:00:54] file=V10-1.py EVENT=iter game_id=1 move=20 depth=1 val=988.00 nodes=176 tt_hits=0
+[2025-12-03 03:00:55] file=V10-1.py EVENT=iter game_id=1 move=20 depth=2 val=68.70 nodes=881 tt_hits=0
+[2025-12-03 03:00:59] file=V10-1.py EVENT=search_choice game_id=1 move=20 piece=R pos=(8, 8) depth=2 val=68.70 nodes=6199 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:00:59] file=V10-2.py EVENT=time_budget game_id=1 move=21 global_remaining=852.0 moves_left_est=87 budget=6.00 empties=175 d_self=11.0 d_opp=2.0
+[2025-12-03 03:00:59] file=V10-2.py EVENT=iter game_id=1 move=21 depth=1 val=-1058.70 nodes=175 tt_hits=0
+[2025-12-03 03:01:05] file=V10-2.py EVENT=iter game_id=1 move=21 depth=2 val=-1261.45 nodes=5902 tt_hits=0
+[2025-12-03 03:01:05] file=V10-2.py EVENT=search_choice game_id=1 move=21 piece=B pos=(2, 8) depth=2 val=-1261.45 nodes=6268 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:01:05] file=V10-1.py EVENT=iter game_id=1 move=22 depth=1 val=982.65 nodes=174 tt_hits=0
+[2025-12-03 03:01:06] file=V10-1.py EVENT=iter game_id=1 move=22 depth=2 val=68.45 nodes=870 tt_hits=0
+[2025-12-03 03:01:11] file=V10-1.py EVENT=search_choice game_id=1 move=22 piece=R pos=(2, 9) depth=2 val=68.45 nodes=6226 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:01:11] file=V10-2.py EVENT=time_budget game_id=1 move=23 global_remaining=846.0 moves_left_est=86 budget=6.00 empties=173 d_self=11.0 d_opp=2.0
+[2025-12-03 03:01:11] file=V10-2.py EVENT=iter game_id=1 move=23 depth=1 val=-1058.45 nodes=173 tt_hits=0
+[2025-12-03 03:01:13] file=V10-2.py EVENT=iter game_id=1 move=23 depth=2 val=-1266.35 nodes=2668 tt_hits=0
+[2025-12-03 03:01:17] file=V10-2.py EVENT=search_choice game_id=1 move=23 piece=B pos=(5, 7) depth=2 val=-1266.35 nodes=5930 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:01:17] file=V10-1.py EVENT=iter game_id=1 move=24 depth=1 val=986.35 nodes=172 tt_hits=0
+[2025-12-03 03:01:17] file=V10-1.py EVENT=iter game_id=1 move=24 depth=2 val=66.95 nodes=865 tt_hits=0
+[2025-12-03 03:01:22] file=V10-1.py EVENT=search_choice game_id=1 move=24 piece=R pos=(5, 8) depth=2 val=66.95 nodes=5798 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:01:22] file=V10-2.py EVENT=time_budget game_id=1 move=25 global_remaining=840.0 moves_left_est=85 budget=6.00 empties=171 d_self=11.0 d_opp=2.0
+[2025-12-03 03:01:22] file=V10-2.py EVENT=iter game_id=1 move=25 depth=1 val=-1056.95 nodes=171 tt_hits=0
+[2025-12-03 03:01:25] file=V10-2.py EVENT=iter game_id=1 move=25 depth=2 val=-1264.85 nodes=2802 tt_hits=0
+[2025-12-03 03:01:28] file=V10-2.py EVENT=search_choice game_id=1 move=25 piece=B pos=(10, 7) depth=2 val=-1264.85 nodes=5767 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:01:28] file=V10-1.py EVENT=iter game_id=1 move=26 depth=1 val=984.85 nodes=170 tt_hits=0
+[2025-12-03 03:01:29] file=V10-1.py EVENT=iter game_id=1 move=26 depth=2 val=66.20 nodes=865 tt_hits=0
+[2025-12-03 03:01:33] file=V10-1.py EVENT=search_choice game_id=1 move=26 piece=R pos=(10, 8) depth=2 val=66.20 nodes=5588 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:01:33] file=V10-2.py EVENT=time_budget game_id=1 move=27 global_remaining=833.8 moves_left_est=84 budget=6.00 empties=169 d_self=11.0 d_opp=2.0
+[2025-12-03 03:01:34] file=V10-2.py EVENT=iter game_id=1 move=27 depth=1 val=-1056.20 nodes=169 tt_hits=0
+[2025-12-03 03:01:37] file=V10-2.py EVENT=iter game_id=1 move=27 depth=2 val=-1264.10 nodes=3023 tt_hits=0
+[2025-12-03 03:01:39] file=V10-2.py EVENT=search_choice game_id=1 move=27 piece=B pos=(12, 6) depth=2 val=-1264.10 nodes=5520 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:01:40] file=V10-1.py EVENT=iter game_id=1 move=28 depth=1 val=984.10 nodes=168 tt_hits=0
+[2025-12-03 03:01:40] file=V10-1.py EVENT=iter game_id=1 move=28 depth=2 val=958.45 nodes=853 tt_hits=0
+[2025-12-03 03:01:45] file=V10-1.py EVENT=search_choice game_id=1 move=28 piece=R pos=(12, 7) depth=2 val=958.45 nodes=5322 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:01:45] file=V10-2.py EVENT=time_budget game_id=1 move=29 global_remaining=827.8 moves_left_est=83 budget=6.00 empties=167 d_self=11.0 d_opp=2.0
+[2025-12-03 03:01:45] file=V10-2.py EVENT=iter game_id=1 move=29 depth=1 val=-1228.45 nodes=167 tt_hits=0
+[2025-12-03 03:01:49] file=V10-2.py EVENT=iter game_id=1 move=29 depth=2 val=-1438.90 nodes=3421 tt_hits=0
+[2025-12-03 03:01:51] file=V10-2.py EVENT=search_choice game_id=1 move=29 piece=B pos=(1, 6) depth=2 val=-1438.90 nodes=5413 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:01:51] file=V10-1.py EVENT=iter game_id=1 move=30 depth=1 val=1128.90 nodes=166 tt_hits=0
+[2025-12-03 03:01:56] file=V10-1.py EVENT=search_choice game_id=1 move=30 piece=R pos=(1, 7) depth=1 val=1128.90 nodes=5441 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 03:01:56] file=V10-2.py EVENT=time_budget game_id=1 move=31 global_remaining=821.8 moves_left_est=82 budget=6.00 empties=165 d_self=10.0 d_opp=1.0
+[2025-12-03 03:01:56] file=V10-2.py EVENT=iter game_id=1 move=31 depth=1 val=-1230.70 nodes=165 tt_hits=0
+[2025-12-03 03:01:58] file=V10-2.py EVENT=iter game_id=1 move=31 depth=2 val=-1438.60 nodes=1323 tt_hits=0
+[2025-12-03 03:02:02] file=V10-2.py EVENT=search_choice game_id=1 move=31 piece=B pos=(0, 7) depth=2 val=-1438.60 nodes=5549 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:02:02] file=V10-1.py EVENT=iter game_id=1 move=32 depth=1 val=1128.60 nodes=164 tt_hits=0
+[2025-12-03 03:02:04] file=V10-1.py EVENT=iter game_id=1 move=32 depth=2 val=958.90 nodes=1435 tt_hits=0
+[2025-12-03 03:02:08] file=V10-1.py EVENT=search_choice game_id=1 move=32 piece=R pos=(0, 11) depth=2 val=958.90 nodes=4679 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:02:08] file=V10-2.py EVENT=time_budget game_id=1 move=33 global_remaining=815.8 moves_left_est=81 budget=6.00 empties=163 d_self=10.0 d_opp=1.0
+[2025-12-03 03:02:08] file=V10-2.py EVENT=iter game_id=1 move=33 depth=1 val=-1238.90 nodes=163 tt_hits=0
+[2025-12-03 03:02:08] file=V10-2.py EVENT=iter game_id=1 move=33 depth=2 val=-1439.10 nodes=721 tt_hits=0
+[2025-12-03 03:02:14] file=V10-2.py EVENT=search_choice game_id=1 move=33 piece=B pos=(1, 10) depth=2 val=-1439.10 nodes=5399 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:02:14] file=V10-1.py EVENT=iter game_id=1 move=34 depth=1 val=1129.10 nodes=162 tt_hits=0
+[2025-12-03 03:02:16] file=V10-1.py EVENT=iter game_id=1 move=34 depth=2 val=51.70 nodes=1800 tt_hits=0
+[2025-12-03 03:02:19] file=V10-1.py EVENT=search_choice game_id=1 move=34 piece=R pos=(1, 11) depth=2 val=51.70 nodes=4422 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:02:19] file=V10-2.py EVENT=time_budget game_id=1 move=35 global_remaining=809.8 moves_left_est=80 budget=6.00 empties=161 d_self=10.0 d_opp=1.0
+[2025-12-03 03:02:19] file=V10-2.py EVENT=iter game_id=1 move=35 depth=1 val=-1051.70 nodes=161 tt_hits=0
+[2025-12-03 03:02:20] file=V10-2.py EVENT=iter game_id=1 move=35 depth=2 val=-1431.85 nodes=642 tt_hits=0
+[2025-12-03 03:02:25] file=V10-2.py EVENT=search_choice game_id=1 move=35 piece=B pos=(2, 10) depth=2 val=-1431.85 nodes=4974 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:02:25] file=V10-1.py EVENT=iter game_id=1 move=36 depth=1 val=1121.85 nodes=160 tt_hits=0
+[2025-12-03 03:02:27] file=V10-1.py EVENT=iter game_id=1 move=36 depth=2 val=52.30 nodes=1681 tt_hits=0
+[2025-12-03 03:02:31] file=V10-1.py EVENT=search_choice game_id=1 move=36 piece=R pos=(2, 11) depth=2 val=52.30 nodes=4308 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:02:31] file=V10-2.py EVENT=time_budget game_id=1 move=37 global_remaining=803.8 moves_left_est=79 budget=6.00 empties=159 d_self=10.0 d_opp=2.0
+[2025-12-03 03:02:31] file=V10-2.py EVENT=iter game_id=1 move=37 depth=1 val=-1052.30 nodes=159 tt_hits=0
+[2025-12-03 03:02:32] file=V10-2.py EVENT=iter game_id=1 move=37 depth=2 val=-1432.45 nodes=1109 tt_hits=0
+[2025-12-03 03:02:37] file=V10-2.py EVENT=search_choice game_id=1 move=37 piece=B pos=(3, 10) depth=2 val=-1432.45 nodes=4772 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:02:37] file=V10-1.py EVENT=iter game_id=1 move=38 depth=1 val=1122.45 nodes=158 tt_hits=0
+[2025-12-03 03:02:38] file=V10-1.py EVENT=iter game_id=1 move=38 depth=2 val=52.00 nodes=1498 tt_hits=0
+[2025-12-03 03:02:42] file=V10-1.py EVENT=search_choice game_id=1 move=38 piece=R pos=(3, 11) depth=2 val=52.00 nodes=4193 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:02:42] file=V10-2.py EVENT=time_budget game_id=1 move=39 global_remaining=797.8 moves_left_est=78 budget=6.00 empties=157 d_self=10.0 d_opp=2.0
+[2025-12-03 03:02:42] file=V10-2.py EVENT=iter game_id=1 move=39 depth=1 val=-1042.00 nodes=157 tt_hits=0
+[2025-12-03 03:02:43] file=V10-2.py EVENT=iter game_id=1 move=39 depth=2 val=-1251.40 nodes=626 tt_hits=0
+[2025-12-03 03:02:48] file=V10-2.py EVENT=search_choice game_id=1 move=39 piece=B pos=(4, 10) depth=2 val=-1251.40 nodes=4596 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:02:48] file=V10-1.py EVENT=iter game_id=1 move=40 depth=1 val=971.40 nodes=156 tt_hits=0
+[2025-12-03 03:02:50] file=V10-1.py EVENT=iter game_id=1 move=40 depth=2 val=51.70 nodes=1490 tt_hits=0
+[2025-12-03 03:02:53] file=V10-1.py EVENT=search_choice game_id=1 move=40 piece=R pos=(4, 11) depth=2 val=51.70 nodes=4058 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:02:53] file=V10-2.py EVENT=time_budget game_id=1 move=41 global_remaining=791.8 moves_left_est=77 budget=6.00 empties=155 d_self=10.0 d_opp=2.0
+[2025-12-03 03:02:53] file=V10-2.py EVENT=iter game_id=1 move=41 depth=1 val=-1051.70 nodes=155 tt_hits=0
+[2025-12-03 03:02:55] file=V10-2.py EVENT=iter game_id=1 move=41 depth=2 val=-1281.10 nodes=1477 tt_hits=0
+[2025-12-03 03:02:59] file=V10-2.py EVENT=search_choice game_id=1 move=41 piece=B pos=(5, 10) depth=2 val=-1281.10 nodes=4434 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:03:00] file=V10-1.py EVENT=iter game_id=1 move=42 depth=1 val=971.10 nodes=154 tt_hits=0
+[2025-12-03 03:03:01] file=V10-1.py EVENT=iter game_id=1 move=42 depth=2 val=51.70 nodes=1384 tt_hits=0
+[2025-12-03 03:03:05] file=V10-1.py EVENT=search_choice game_id=1 move=42 piece=R pos=(5, 11) depth=2 val=51.70 nodes=4003 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:03:05] file=V10-2.py EVENT=time_budget game_id=1 move=43 global_remaining=785.8 moves_left_est=76 budget=6.00 empties=153 d_self=10.0 d_opp=2.0
+[2025-12-03 03:03:05] file=V10-2.py EVENT=iter game_id=1 move=43 depth=1 val=-1049.55 nodes=153 tt_hits=0
+[2025-12-03 03:03:11] file=V10-2.py EVENT=iter game_id=1 move=43 depth=2 val=-1432.15 nodes=4211 tt_hits=0
+[2025-12-03 03:03:11] file=V10-2.py EVENT=search_choice game_id=1 move=43 piece=B pos=(6, 10) depth=2 val=-1432.15 nodes=4330 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:03:11] file=V10-1.py EVENT=iter game_id=1 move=44 depth=1 val=1122.15 nodes=152 tt_hits=0
+[2025-12-03 03:03:13] file=V10-1.py EVENT=iter game_id=1 move=44 depth=2 val=51.70 nodes=1471 tt_hits=0
+[2025-12-03 03:03:16] file=V10-1.py EVENT=search_choice game_id=1 move=44 piece=R pos=(6, 11) depth=2 val=51.70 nodes=3814 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:03:16] file=V10-2.py EVENT=time_budget game_id=1 move=45 global_remaining=779.8 moves_left_est=75 budget=6.00 empties=151 d_self=10.0 d_opp=2.0
+[2025-12-03 03:03:16] file=V10-2.py EVENT=iter game_id=1 move=45 depth=1 val=-1051.70 nodes=151 tt_hits=0
+[2025-12-03 03:03:19] file=V10-2.py EVENT=iter game_id=1 move=45 depth=2 val=-1431.85 nodes=1937 tt_hits=0
+[2025-12-03 03:03:22] file=V10-2.py EVENT=search_choice game_id=1 move=45 piece=B pos=(7, 10) depth=2 val=-1431.85 nodes=4157 tt_hits=0 max_ply=3 elapsed=6.208
+[2025-12-03 03:03:23] file=V10-1.py EVENT=iter game_id=1 move=46 depth=1 val=1121.85 nodes=150 tt_hits=0
+[2025-12-03 03:03:25] file=V10-1.py EVENT=iter game_id=1 move=46 depth=2 val=51.70 nodes=1519 tt_hits=0
+[2025-12-03 03:03:28] file=V10-1.py EVENT=search_choice game_id=1 move=46 piece=R pos=(7, 11) depth=2 val=51.70 nodes=3852 tt_hits=0 max_ply=3 elapsed=5.402
+[2025-12-03 03:03:28] file=V10-2.py EVENT=time_budget game_id=1 move=47 global_remaining=773.6 moves_left_est=74 budget=6.00 empties=149 d_self=10.0 d_opp=2.0
+[2025-12-03 03:03:28] file=V10-2.py EVENT=iter game_id=1 move=47 depth=1 val=-1051.70 nodes=149 tt_hits=0
+[2025-12-03 03:03:30] file=V10-2.py EVENT=iter game_id=1 move=47 depth=2 val=-1431.85 nodes=1762 tt_hits=0
+[2025-12-03 03:03:34] file=V10-2.py EVENT=search_choice game_id=1 move=47 piece=B pos=(8, 10) depth=2 val=-1431.85 nodes=4029 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:03:34] file=V10-1.py EVENT=iter game_id=1 move=48 depth=1 val=1121.85 nodes=148 tt_hits=0
+[2025-12-03 03:03:36] file=V10-1.py EVENT=iter game_id=1 move=48 depth=2 val=51.40 nodes=1569 tt_hits=0
+[2025-12-03 03:03:39] file=V10-1.py EVENT=search_choice game_id=1 move=48 piece=R pos=(8, 11) depth=2 val=51.40 nodes=3687 tt_hits=0 max_ply=3 elapsed=5.400
+[2025-12-03 03:03:39] file=V10-2.py EVENT=time_budget game_id=1 move=49 global_remaining=767.6 moves_left_est=73 budget=6.00 empties=147 d_self=10.0 d_opp=2.0
+[2025-12-03 03:03:39] file=V10-2.py EVENT=iter game_id=1 move=49 depth=1 val=-1041.40 nodes=147 tt_hits=0
+[2025-12-03 03:03:40] file=V10-2.py EVENT=iter game_id=1 move=49 depth=2 val=-1250.80 nodes=586 tt_hits=0
+[2025-12-03 03:03:45] file=V10-2.py EVENT=search_choice game_id=1 move=49 piece=B pos=(9, 10) depth=2 val=-1250.80 nodes=4088 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:03:46] file=V10-1.py EVENT=iter game_id=1 move=50 depth=1 val=970.80 nodes=146 tt_hits=0
+[2025-12-03 03:03:48] file=V10-1.py EVENT=iter game_id=1 move=50 depth=2 val=43.10 nodes=1853 tt_hits=0
+[2025-12-03 03:03:51] file=V10-1.py EVENT=search_choice game_id=1 move=50 piece=R pos=(9, 11) depth=2 val=43.10 nodes=3605 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:03:51] file=V10-2.py EVENT=time_budget game_id=1 move=51 global_remaining=761.6 moves_left_est=72 budget=6.00 empties=145 d_self=10.0 d_opp=2.0
+[2025-12-03 03:03:51] file=V10-2.py EVENT=iter game_id=1 move=51 depth=1 val=-13.10 nodes=145 tt_hits=0
+[2025-12-03 03:03:51] file=V10-2.py EVENT=iter game_id=1 move=51 depth=2 val=-1244.00 nodes=579 tt_hits=0
+[2025-12-03 03:03:57] file=V10-2.py EVENT=search_choice game_id=1 move=51 piece=B pos=(10, 10) depth=2 val=-1244.00 nodes=3753 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:03:57] file=V10-1.py EVENT=iter game_id=1 move=52 depth=1 val=964.00 nodes=144 tt_hits=0
+[2025-12-03 03:04:02] file=V10-1.py EVENT=search_choice game_id=1 move=52 piece=R pos=(11, 9) depth=1 val=964.00 nodes=3521 tt_hits=0 max_ply=2 elapsed=5.400
+[2025-12-03 03:04:02] file=V10-2.py EVENT=time_budget game_id=1 move=53 global_remaining=755.6 moves_left_est=71 budget=6.00 empties=143 d_self=9.0 d_opp=2.0
+[2025-12-03 03:04:02] file=V10-2.py EVENT=iter game_id=1 move=53 depth=1 val=-6.30 nodes=143 tt_hits=0
+[2025-12-03 03:04:03] file=V10-2.py EVENT=iter game_id=1 move=53 depth=2 val=-1077.10 nodes=629 tt_hits=0
+[2025-12-03 03:04:08] file=V10-2.py EVENT=search_choice game_id=1 move=53 piece=B pos=(10, 11) depth=2 val=-1077.10 nodes=3644 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:04:08] file=V10-1.py EVENT=iter game_id=1 move=54 depth=1 val=97.10 nodes=142 tt_hits=0
+[2025-12-03 03:04:11] file=V10-1.py EVENT=iter game_id=1 move=54 depth=2 val=-104.80 nodes=1676 tt_hits=0
+[2025-12-03 03:04:14] file=V10-1.py EVENT=search_choice game_id=1 move=54 piece=R pos=(1, 5) depth=2 val=-104.80 nodes=2931 tt_hits=0 max_ply=3 elapsed=5.401
+[2025-12-03 03:04:14] file=V10-2.py EVENT=time_budget game_id=1 move=55 global_remaining=749.6 moves_left_est=70 budget=6.00 empties=141 d_self=8.0 d_opp=3.0
+[2025-12-03 03:04:14] file=V10-2.py EVENT=iter game_id=1 move=55 depth=1 val=-7.40 nodes=141 tt_hits=0
+[2025-12-03 03:04:14] file=V10-2.py EVENT=iter game_id=1 move=55 depth=2 val=-1038.80 nodes=615 tt_hits=0
+[2025-12-03 03:04:20] file=V10-2.py EVENT=search_choice game_id=1 move=55 piece=B pos=(2, 5) depth=2 val=-1038.80 nodes=3360 tt_hits=0 max_ply=3 elapsed=6.000
+[2025-12-03 03:04:20] file=V10-1.py EVENT=iter game_id=1 move=56 depth=1 val=72.35 nodes=140 tt_hits=0
+[2025-12-03 03:04:25] file=V10-1.py EVENT=search_choice game_id=1 move=56 piece=R pos=(1, 4) depth=1 val=72.35 nodes=2783 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 03:04:25] file=V10-2.py EVENT=time_budget game_id=1 move=57 global_remaining=743.6 moves_left_est=69 budget=6.00 empties=139 d_self=7.0 d_opp=4.0
+[2025-12-03 03:04:25] file=V10-2.py EVENT=iter game_id=1 move=57 depth=1 val=0.10 nodes=6 tt_hits=0
+[2025-12-03 03:04:25] file=V10-2.py EVENT=iter game_id=1 move=57 depth=2 val=-12.85 nodes=42 tt_hits=0
+[2025-12-03 03:04:26] file=V10-2.py EVENT=iter game_id=1 move=57 depth=3 val=24.60 nodes=260 tt_hits=0
+[2025-12-03 03:04:28] file=V10-2.py EVENT=iter game_id=1 move=57 depth=4 val=9.05 nodes=1595 tt_hits=38
+[2025-12-03 03:04:31] file=V10-2.py EVENT=search_choice game_id=1 move=57 piece=B pos=(11, 11) depth=4 val=9.05 nodes=3219 tt_hits=80 max_ply=5 elapsed=6.001
+[2025-12-03 03:04:31] file=V10-1.py EVENT=iter game_id=1 move=58 depth=1 val=81.35 nodes=138 tt_hits=0
+[2025-12-03 03:04:36] file=V10-1.py EVENT=search_choice game_id=1 move=58 piece=R pos=(10, 12) depth=1 val=81.35 nodes=2591 tt_hits=0 max_ply=2 elapsed=5.400
+[2025-12-03 03:04:36] file=V10-2.py EVENT=time_budget game_id=1 move=59 global_remaining=737.6 moves_left_est=68 budget=6.00 empties=137 d_self=7.0 d_opp=4.0
+[2025-12-03 03:04:36] file=V10-2.py EVENT=iter game_id=1 move=59 depth=1 val=-1.95 nodes=6 tt_hits=0
+[2025-12-03 03:04:36] file=V10-2.py EVENT=iter game_id=1 move=59 depth=2 val=-11.85 nodes=37 tt_hits=0
+[2025-12-03 03:04:37] file=V10-2.py EVENT=iter game_id=1 move=59 depth=3 val=18.30 nodes=228 tt_hits=0
+[2025-12-03 03:04:38] file=V10-2.py EVENT=iter game_id=1 move=59 depth=4 val=-0.40 nodes=1105 tt_hits=26
+[2025-12-03 03:04:42] file=V10-2.py EVENT=search_choice game_id=1 move=59 piece=B pos=(9, 12) depth=4 val=-0.40 nodes=3184 tt_hits=64 max_ply=5 elapsed=6.002
+[2025-12-03 03:04:43] file=V10-1.py EVENT=iter game_id=1 move=60 depth=1 val=56.85 nodes=136 tt_hits=0
+[2025-12-03 03:04:48] file=V10-1.py EVENT=search_choice game_id=1 move=60 piece=R pos=(8, 12) depth=1 val=56.85 nodes=2698 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 03:04:48] file=V10-2.py EVENT=time_budget game_id=1 move=61 global_remaining=731.6 moves_left_est=67 budget=6.00 empties=135 d_self=6.0 d_opp=5.0
+[2025-12-03 03:04:48] file=V10-2.py EVENT=iter game_id=1 move=61 depth=1 val=15.60 nodes=6 tt_hits=0
+[2025-12-03 03:04:48] file=V10-2.py EVENT=iter game_id=1 move=61 depth=2 val=2.20 nodes=32 tt_hits=1
+[2025-12-03 03:04:48] file=V10-2.py EVENT=iter game_id=1 move=61 depth=3 val=24.60 nodes=242 tt_hits=9
+[2025-12-03 03:04:50] file=V10-2.py EVENT=iter game_id=1 move=61 depth=4 val=3.70 nodes=1111 tt_hits=29
+[2025-12-03 03:04:54] file=V10-2.py EVENT=search_choice game_id=1 move=61 piece=B pos=(2, 4) depth=4 val=3.70 nodes=3137 tt_hits=55 max_ply=5 elapsed=6.002
+[2025-12-03 03:04:54] file=V10-1.py EVENT=iter game_id=1 move=62 depth=1 val=38.85 nodes=134 tt_hits=0
+[2025-12-03 03:04:59] file=V10-1.py EVENT=search_choice game_id=1 move=62 piece=R pos=(1, 3) depth=1 val=38.85 nodes=2905 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 03:04:59] file=V10-2.py EVENT=time_budget game_id=1 move=63 global_remaining=725.6 moves_left_est=66 budget=6.00 empties=133 d_self=5.0 d_opp=5.0
+[2025-12-03 03:04:59] file=V10-2.py EVENT=iter game_id=1 move=63 depth=1 val=29.65 nodes=6 tt_hits=0
+[2025-12-03 03:04:59] file=V10-2.py EVENT=iter game_id=1 move=63 depth=2 val=7.50 nodes=42 tt_hits=0
+[2025-12-03 03:05:00] file=V10-2.py EVENT=iter game_id=1 move=63 depth=3 val=51.45 nodes=213 tt_hits=0
+[2025-12-03 03:05:01] file=V10-2.py EVENT=iter game_id=1 move=63 depth=4 val=31.40 nodes=1191 tt_hits=25
+[2025-12-03 03:05:05] file=V10-2.py EVENT=search_choice game_id=1 move=63 piece=B pos=(9, 13) depth=4 val=31.40 nodes=3191 tt_hits=71 max_ply=5 elapsed=6.001
+[2025-12-03 03:05:06] file=V10-1.py EVENT=iter game_id=1 move=64 depth=1 val=33.85 nodes=132 tt_hits=0
+[2025-12-03 03:05:11] file=V10-1.py EVENT=search_choice game_id=1 move=64 piece=R pos=(3, 6) depth=1 val=33.85 nodes=3023 tt_hits=0 max_ply=2 elapsed=5.400
+[2025-12-03 03:05:11] file=V10-2.py EVENT=time_budget game_id=1 move=65 global_remaining=719.6 moves_left_est=65 budget=6.00 empties=131 d_self=4.0 d_opp=5.0
+[2025-12-03 03:05:11] file=V10-2.py EVENT=iter game_id=1 move=65 depth=1 val=45.60 nodes=6 tt_hits=0
+[2025-12-03 03:05:11] file=V10-2.py EVENT=iter game_id=1 move=65 depth=2 val=15.20 nodes=39 tt_hits=0
+[2025-12-03 03:05:11] file=V10-2.py EVENT=iter game_id=1 move=65 depth=3 val=52.45 nodes=267 tt_hits=0
+[2025-12-03 03:05:13] file=V10-2.py EVENT=iter game_id=1 move=65 depth=4 val=24.30 nodes=1191 tt_hits=38
+[2025-12-03 03:05:17] file=V10-2.py EVENT=search_choice game_id=1 move=65 piece=B pos=(2, 3) depth=4 val=24.30 nodes=3148 tt_hits=110 max_ply=5 elapsed=6.000
+[2025-12-03 03:05:17] file=V10-1.py EVENT=iter game_id=1 move=66 depth=1 val=-985.20 nodes=130 tt_hits=0
+[2025-12-03 03:05:22] file=V10-1.py EVENT=search_choice game_id=1 move=66 piece=R pos=(2, 2) depth=1 val=-985.20 nodes=2980 tt_hits=0 max_ply=2 elapsed=5.598
+[2025-12-03 03:05:22] file=V10-2.py EVENT=time_budget game_id=1 move=67 global_remaining=713.6 moves_left_est=64 budget=6.00 empties=129 d_self=3.0 d_opp=5.0
+[2025-12-03 03:05:23] file=V10-2.py EVENT=iter game_id=1 move=67 depth=1 val=963.60 nodes=129 tt_hits=0
+[2025-12-03 03:05:23] file=V10-2.py EVENT=iter game_id=1 move=67 depth=2 val=942.20 nodes=384 tt_hits=4
+[2025-12-03 03:05:28] file=V10-2.py EVENT=search_choice game_id=1 move=67 piece=B pos=(3, 2) depth=2 val=942.20 nodes=3164 tt_hits=4 max_ply=3 elapsed=6.001
+[2025-12-03 03:05:29] file=V10-1.py EVENT=iter game_id=1 move=68 depth=1 val=-1192.20 nodes=128 tt_hits=0
+[2025-12-03 03:05:34] file=V10-1.py EVENT=search_choice game_id=1 move=68 piece=R pos=(3, 1) depth=1 val=-1192.20 nodes=3077 tt_hits=0 max_ply=2 elapsed=5.401
+[2025-12-03 03:05:34] file=V10-2.py EVENT=time_budget game_id=1 move=69 global_remaining=707.5 moves_left_est=63 budget=6.00 empties=127 d_self=2.0 d_opp=6.0
+[2025-12-03 03:05:34] file=V10-2.py EVENT=iter game_id=1 move=69 depth=1 val=1139.60 nodes=127 tt_hits=0
+[2025-12-03 03:05:35] file=V10-2.py EVENT=iter game_id=1 move=69 depth=2 val=1036.50 nodes=514 tt_hits=0
+[2025-12-03 03:05:40] file=V10-2.py EVENT=search_choice game_id=1 move=69 piece=B pos=(4, 1) depth=2 val=1036.50 nodes=3348 tt_hits=0 max_ply=3 elapsed=6.001
+[2025-12-03 03:05:40] file=V10-1.py EVENT=iter game_id=1 move=70 depth=1 val=-1389.45 nodes=126 tt_hits=0
+[2025-12-03 03:05:46] file=V10-1.py EVENT=search_choice game_id=1 move=70 piece=R pos=(4, 4) depth=1 val=-1389.45 nodes=3071 tt_hits=0 max_ply=2 elapsed=5.475
+[2025-12-03 03:05:46] file=V10-2.py EVENT=immediate_win game_id=1 move=71 piece=B pos=(4, 0)

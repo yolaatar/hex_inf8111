@@ -209,7 +209,7 @@ class HexEngineV9:
     # Public API
     # ------------------------------------------------------------------
 
-    def choose_action(self, state: GameStateHex, time_budget: float) -> LightAction:
+    def choose_action(self, state: GameStateHex, time_budget: float, skip_stability_stop: bool = False) -> LightAction:
         """
         Recherche itérative avec alpha-bêta, sous contrainte de temps.
         """
@@ -294,7 +294,7 @@ class HexEngineV9:
                 margin = abs(self.last_root_value - self.last_second_best_value)
                 margin_large = margin >= 400.0
                 best_move_stable = stable_count >= 2
-                if elapsed_so_far >= soft_cap and margin_large and best_move_stable:
+                if not skip_stability_stop and elapsed_so_far >= soft_cap and margin_large and best_move_stable:
                     break
                 depth += 1
             except SearchTimeout:
@@ -1674,12 +1674,30 @@ class MyPlayer(PlayerHex):
         # Bonus for tactical crunch
         d_self = self._engine._shortest_connection_distance(current_state, self.piece_type)
         d_opp = self._engine._shortest_connection_distance(current_state, "B" if self.piece_type == "R" else "R")
-        if d_self <= 3 or d_opp <= 3:
-            phase_mult *= 1.4
+        if d_self <= 4 or d_opp <= 4:
+            phase_mult *= 1.5
 
-        # Final per-move time budget with clamp (0.6s to 6.0s), then respect per-move cap
+        # Dynamic cap by phase
+        if empties > 60:
+            phase_cap = 6.5
+        elif empties > 30:
+            phase_cap = 8.0
+        else:
+            phase_cap = 12.0
+
+        # Detect critical endgame: few empties or distances short
+        critical_endgame = (empties <= 20) or (d_self <= 4) or (d_opp <= 4)
+
+        # Final per-move time budget with clamp depending on phase
         time_budget = base * phase_mult
-        time_budget = max(0.6, min(time_budget, 6.0))
+        time_budget = max(0.6, min(time_budget, phase_cap))
+
+        # Critical endgame allocation: consume a large fraction of remaining time
+        if critical_endgame and time_remaining_global > 0.0:
+            frac = 0.35 if empties > 20 else 0.5
+            time_budget = max(time_budget, frac * time_remaining_global)
+
+        # Respect per-move cap last
         time_budget = min(time_budget, self._per_move_cap)
 
         if DEBUG_MODE:
@@ -1687,7 +1705,8 @@ class MyPlayer(PlayerHex):
                 "EVENT=time_budget "
                 f"game_id={self._debug_game_id} move={move_index} "
                 f"global_remaining={time_remaining_global:.1f} moves_left_est={moves_left_est} "
-                f"budget={time_budget:.2f} empties={empties} d_self={d_self:.1f} d_opp={d_opp:.1f}"
+                f"budget={time_budget:.2f} empties={empties} d_self={d_self:.1f} d_opp={d_opp:.1f} "
+                f"phase_cap={phase_cap:.1f} critical={critical_endgame}"
             )
 
         # Infos debug pour le moteur
@@ -1695,7 +1714,7 @@ class MyPlayer(PlayerHex):
         self._engine.debug_move_index = move_index
 
         try:
-            best_light_action = self._engine.choose_action(current_state, time_budget=time_budget)
+            best_light_action = self._engine.choose_action(current_state, time_budget=time_budget, skip_stability_stop=critical_endgame)
         except SearchTimeout:
             # En cas de gros timeout au mauvais moment, on joue un coup au hasard
             fallback = random.choice(possible_light_actions)
